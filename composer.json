@@ -1,0 +1,30 @@
+{
+    "name": "joao-prrvz/entity-orm",
+    "description": "An ORM inspired by Microsoft .NET Entity Core",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "EntityORM\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "clear && phpunit"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EntityORM\\Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joao Victor Pereira Vaz"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^13.4"
+    },
+    "require": {
+        "nikic/php-parser": "^5.9"
+    }
+}
